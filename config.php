@@ -1,5 +1,5 @@
 <?php 
-
+$config['site_title'] = 'Mest Magnus';			// Site title
 $config['theme'] = 'marriage'; 			// Set the theme (defaults to "default")
 
 /*
