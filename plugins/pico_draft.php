@@ -1,3 +1,4 @@
+<?php
 class Pico_Draft {
 
     public function request_url(&$url)
@@ -16,3 +17,5 @@ class Pico_Draft {
         }
     }
 }
+
+?>

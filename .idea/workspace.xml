@@ -77,7 +77,16 @@
       <file leaf-file-name="pico_draft.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/plugins/pico_draft.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="37" selection-start="772" selection-end="772" vertical-scroll-proportion="0.2852349">
+            <state line="20" column="2" selection-start="782" selection-end="782" vertical-scroll-proportion="0.33557048">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pico_plugin.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/pico_plugin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="78" column="0" selection-start="942" selection-end="944" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -377,9 +386,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/pico_plugin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="0" selection-start="942" selection-end="944" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/pico_draft.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="37" selection-start="772" selection-end="772" vertical-scroll-proportion="0.2852349">
+        <state line="20" column="2" selection-start="782" selection-end="782" vertical-scroll-proportion="0.33557048">
           <folding />
         </state>
       </provider>
