@@ -1,5 +1,7 @@
 <?php 
 
+$config['theme'] = 'marriage'; 			// Set the theme (defaults to "default")
+
 /*
 // Override any of the default settings below:
 
