@@ -1,6 +1,7 @@
 /*
 Title: Welcome
 Description: This description will go in the meta description tag
+Date: 2012/04/01
 */
 
 ## Welcome to Pico

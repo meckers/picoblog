@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8" />
+
+    <title>{% if meta.title %}{{ meta.title }} | {% endif %}{{ site_title }}</title>
+    {% if meta.description %}
+    <meta name="description" content="{{ meta.description }}">
+    {% endif %}{% if meta.robots %}
+    <meta name="robots" content="{{ meta.robots }}">
+    {% endif %}
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" type="text/css" />
+    <link rel="stylesheet" href="{{ theme_url }}/style.css" type="text/css" />
+
+    <script src="{{ theme_url }}/scripts/modernizr-2.6.1.min.js"></script>
+</head>
+<body>
+
+<header id="header">
+    <div class="inner clearfix">
+        <h2><a href="{{ base_url }}">{{ site_title }}</a></h2>
+        <!-- <ul class="nav">
+            {% for page in pages %}
+            <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+            {% endfor %}
+        </ul> -->
+    </div>
+</header>
+
+
+<section id="content">
+    <div class="inner">
+
+        <!--
+        {% for page in pages %}
+            {{ page.title }}<br/>
+        {% endfor %}
+        -->
+
+        {% if is_front_page %}
+        <div id="posts">
+            {% if pages|last.date %} <!-- Note we check for Date field (posts) here -->
+
+            {{ pages|last.date|swedate }}
+            <h2><!--a href="{{ page.url }}">{% filter upper %}{{ pages|last.title }}{% endfilter %}</a-->
+                <a href="{{ page.url }}">{{ pages|last.title }}</a>
+            </h2>
+            <div class="post">
+                <p class="excerpt">{{ pages|last.content }}</p>
+            </div>
+            {% endif %}
+        </div>
+        {% else %}
+        <div class="post">
+            {% if meta.title %}<h2>{{ meta.title }}</h2>{% endif %}
+            <p class="meta">{{ meta.date_formatted }}</p>
+            {{ content }}
+        </div>
+        {% endif %}
+    </div>
+</section>
+
+
+<footer id="footer">
+    <div class="inner">
+        ---
+    </div>
+</footer>
+
+</body>
+</html>

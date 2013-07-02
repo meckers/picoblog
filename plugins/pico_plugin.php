@@ -11,7 +11,7 @@ class Pico_Plugin {
 
 	public function plugins_loaded()
 	{
-		
+
 	}
 	
 	public function request_url(&$url)
@@ -61,16 +61,34 @@ class Pico_Plugin {
 	
 	public function before_twig_register()
 	{
-		
+
 	}
 	
 	public function before_render(&$twig_vars, &$twig)
 	{
+
+
+        $filter = new Twig_SimpleFilter('swedate', function ($d, $format = '%A %d %B %Y') {
+
+               if($d instanceof DateTime)
+               {
+                   $d = $d->format('Y/m/d');
+               }
+
+
+               return strftime($format, strtotime($d));
+
+           });
+
+
+           $twig->addFilter($filter);
 		
 	}
 	
 	public function after_render(&$output)
 	{
+
+
 		
 	}
 	

@@ -1,0 +1,63 @@
+body {
+    font-family: Georgia, Times New Roman, Serif;
+    font-size: 13px;
+    background-color: #fefefe;
+}
+
+/*
+.centerer {
+    overflow: hidden;
+    width: 100%;
+} */
+
+h2 {
+    font-family: adobe-caslon-pro, georgia, serif;
+    font-size: 1.5em;
+    /*font-weight: bold;*/
+    font-weight: normal;
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(129, 105, 64);
+}
+a:hover {
+    border-bottom: 1px dotted rgb(129, 105, 64);
+}
+
+section#content {
+    margin: 0 auto;
+    max-width: 700px;
+    background-color: white;
+    color: #555;
+    font-size: 1.5em;
+    line-height: 28px;
+    /*border: 1px solid black;*/
+    padding: 15px;
+}
+
+.post {
+    padding-left: 40px;
+}
+
+/* Mobile */
+@media screen and (max-width: 700px) {
+    section#content {
+        max-width: 640px;
+    }
+
+    .post {
+        padding-left: 0px;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+    section#content {
+        margin: 0px;
+        max-width: 480px;
+        font-size: 1.2em;
+    }
+
+}
