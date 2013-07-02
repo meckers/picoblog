@@ -1,7 +1,7 @@
 <?php
 
 date_default_timezone_set('Europe/Stockholm');
-setlocale(LC_ALL, 'sv_SE');
+
 
 define('ROOT_DIR', realpath(dirname(__FILE__)) .'/');
 define('CONTENT_DIR', ROOT_DIR .'content/');

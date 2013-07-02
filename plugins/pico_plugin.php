@@ -75,6 +75,7 @@ class Pico_Plugin {
                    $d = $d->format('Y/m/d');
                }
 
+                setlocale(LC_ALL, 'sv_SE');
 
                return strftime($format, strtotime($d));
 
