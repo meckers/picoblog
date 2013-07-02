@@ -1,7 +1,8 @@
 body {
     font-family: Georgia, Times New Roman, Serif;
     font-size: 13px;
-    background-color: #fefefe;
+    background-color: #000;
+    margin: 0px;
 }
 
 /*
@@ -12,7 +13,7 @@ body {
 
 h2 {
     font-family: adobe-caslon-pro, georgia, serif;
-    font-size: 1.5em;
+    font-size: 1.8em;
     /*font-weight: bold;*/
     font-weight: normal;
     font-style: italic;
@@ -26,23 +27,106 @@ a:hover {
     border-bottom: 1px dotted rgb(129, 105, 64);
 }
 
+.date {
+    font-size: 0.8em;
+}
+
 section#content {
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     max-width: 700px;
-    background-color: white;
+    background-color: #f0f0f0;
     color: #555;
     font-size: 1.5em;
     line-height: 28px;
     /*border: 1px solid black;*/
-    padding: 15px;
+    padding: 50px;
+}
+
+#content-container {
+    background-color: #f0f0f0;
+    margin-left: 300px;
+}
+
+.speechbubble-tip {
+    display: block;
+    position: absolute;
+    top: 106px;
+    left: 246px;
+    width: 0;
+    border-width: 65px 65px 0;
+    border-style: solid;
+    border-color: #f0f0f0 transparent;
+    z-index: -1;
 }
 
 .post {
     padding-left: 40px;
 }
 
+.ego-container {
+    float: left;
+    color: #f0f0f0;
+    white-space: nowrap;
+}
+
+.ego-container .description {
+    white-space: normal;
+    width: 200px;
+    margin-left: 40px;
+    font-size: 1.1em;
+}
+
+.typekit-badge {
+    display: none !important;
+}
+
+.ego-container img {
+    margin: 40px;
+}
+
+.ego-container h1 {
+    margin: 40px;
+    font-size: 2.2em;
+    margin-top: -20px;
+    margin-bottom: 16px;
+}
+
 /* Mobile */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
+
+    .speechbubble-tip {
+        display: none;
+    }
+
+    .ego-container {
+        float: none;
+        color: #f0f0f0;
+    }
+
+    .ego-container img {
+        margin-bottom: -4px;
+    }
+
+    .ego-container #title {
+        font-size: 1.2em;
+        display: inline-block;
+        position: relative;
+        bottom: 85px;
+    }
+
+    .ego-container .description {
+        margin-left: 0px;
+        width: 300px;
+    }
+
+    .ego-container h1 {
+        margin-left: 0px;
+    }
+
+    #content-container {
+        margin-left: 0px;
+    }
+
     section#content {
         max-width: 640px;
     }
@@ -56,8 +140,26 @@ section#content {
 @media screen and (max-width: 480px) {
     section#content {
         margin: 0px;
+        padding: 20px;
         max-width: 480px;
         font-size: 1.2em;
+    }
+
+    .ego-container #title {
+        display: inline-block;
+        position: relative;
+        bottom: 25px;
+    }
+
+    .ego-container img {
+        width: 100px;
+        margin-bottom: -4px;
+        margin-top: 20px;
+    }
+
+    .ego-container h1 {
+        margin-top: 10px;
+        font-size: 1.7em;
     }
 
 }
