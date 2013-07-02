@@ -68,7 +68,7 @@ class Pico_Plugin {
 	{
 
 
-        $filter = new Twig_SimpleFilter('swedate', function ($d, $format = '%A %d %B %Y') {
+        $filter = new Twig_SimpleFilter('swedate', function ($d, $format = '[%A %d %B %Y]') {
 
                if($d instanceof DateTime)
                {

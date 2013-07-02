@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffbc7b11-1ec1-45b3-8edc-1c7da99dc67b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/nothing/index.html" afterPath="$PROJECT_DIR$/themes/nothing/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/pico_plugin.php" afterPath="$PROJECT_DIR$/plugins/pico_plugin.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -76,19 +77,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/nothing/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="17" selection-start="263" selection-end="264" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/nothing/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="38" selection-start="1378" selection-end="1385" vertical-scroll-proportion="-2.3809524">
+            <state line="38" column="23" selection-start="1175" selection-end="1175" vertical-scroll-proportion="-0.47619048">
               <folding />
             </state>
           </provider>
@@ -115,7 +107,25 @@
       <file leaf-file-name="pico_plugin.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/plugins/pico_plugin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="16" selection-start="1109" selection-end="1109" vertical-scroll-proportion="0.6913146">
+            <state line="70" column="89" selection-start="967" selection-end="967" vertical-scroll-proportion="0.270073">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="plugins.iml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/plugins.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="magnus.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/magnus.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="13" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -142,7 +152,7 @@
       <file leaf-file-name="ny.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/ny.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="69" selection-start="2012" selection-end="2012" vertical-scroll-proportion="0.0">
+            <state line="13" column="10" selection-start="556" selection-end="556" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -184,9 +194,9 @@
         <option value="$PROJECT_DIR$/themes/nothing/style.css" />
         <option value="$PROJECT_DIR$/vendor/autoload.php" />
         <option value="$PROJECT_DIR$/plugins/swedate.php" />
-        <option value="$PROJECT_DIR$/themes/nothing/index.html" />
         <option value="$PROJECT_DIR$/config.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/themes/nothing/index.html" />
         <option value="$PROJECT_DIR$/plugins/pico_plugin.php" />
       </list>
     </option>
@@ -197,7 +207,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1449" />
-    <option name="height" value="1330" />
+    <option name="height" value="1090" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -481,10 +491,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1449" height="1330" extended-state="0" />
+    <frame x="0" y="22" width="1449" height="1090" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27272728" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24123712" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -501,7 +511,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969433" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24447612" sideWeight="0.72727275" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24447612" sideWeight="0.7587629" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -603,20 +613,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/magnus.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/ny.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="69" selection-start="2012" selection-end="2012" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/marriage/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="37" selection-start="647" selection-end="647" vertical-scroll-proportion="0.41975307">
@@ -645,27 +641,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/swedate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/nothing/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="38" selection-start="1378" selection-end="1385" vertical-scroll-proportion="-2.3809524">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/plugins.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="0" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
@@ -680,9 +655,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/content/magnus.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/ny.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="10" selection-start="556" selection-end="556" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/nothing/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="23" selection-start="1175" selection-end="1175" vertical-scroll-proportion="-0.47619048">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/swedate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/plugins.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/pico_plugin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="16" selection-start="1109" selection-end="1109" vertical-scroll-proportion="0.6913146">
+        <state line="70" column="89" selection-start="967" selection-end="967" vertical-scroll-proportion="0.270073">
           <folding />
         </state>
       </provider>
