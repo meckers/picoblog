@@ -4,3 +4,5 @@ vendor/twig/twig/doc/*
 vendor/twig/twig/ext/*
 vendor/twig/twig/test/*
 .idea/*
+content/*.md
+!content/404.md
