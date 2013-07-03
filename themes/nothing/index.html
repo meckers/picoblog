@@ -36,9 +36,10 @@
     <section id="content">
         <div class="inner">
 
+            <!--
             {% for page in pages %}
                 {{ page.title }}<br/>
-            {% endfor %}
+            {% endfor %}-->
 
             <div class="speechbubble-tip"></div>
 
@@ -48,7 +49,7 @@
 
                 <span class="date tk-museo-sans">{{ pages|last.date|swedate }}</span>
                 <h2><!--a href="{{ page.url }}">{% filter upper %}{{ pages|last.title }}{% endfilter %}</a-->
-                    <a href="{{ page.url }}">{{ pages|last.title }}</a>
+                    <a href="{{ pages|last.url }}">{{ pages|last.title }}</a>
                 </h2>
                 <div class="post tk-museo-sans">
                     <p class="excerpt">{{ pages|last.content }}</p>
@@ -56,10 +57,12 @@
                 {% endif %}
             </div>
             {% else %}
-            <div class="post">
-                {% if meta.title %}<h2>{{ meta.title }}</h2>{% endif %}
-                <p class="meta">{{ meta.date_formatted }}</p>
-                {{ content }}
+            <div id="posts">
+                <span class="date tk-museo-sans">{{ meta.date|swedate }}</span>
+                <h2>{{ meta.title }}</h2>
+                <div class="post tk-museo-sans">
+                    <p class="excerpt">{{ content }}</p>
+                </div>
             </div>
             {% endif %}
         </div>
