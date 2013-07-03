@@ -15,7 +15,8 @@
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" type="text/css" />
     <link rel="stylesheet" href="{{ theme_url }}/style.css" type="text/css" />
 
-    <script src="{{ theme_url }}/scripts/modernizr-2.6.1.min.js"></script>
+    <script src="{{ theme_url }}/scripts/jquery.min.js"></script>
+    <script src="{{ theme_url }}/scripts/init.js"></script>
     <script type="text/javascript" src="//use.typekit.net/kei0ded.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
@@ -32,41 +33,38 @@
 </div>
 
 <div id="content-container">
+    <section id="content">
+        <div class="inner">
 
+            <!--
+            {% for page in pages %}
+                {{ page.title }}<br/>
+            {% endfor %}  -->
 
+            <div class="speechbubble-tip"></div>
 
-<section id="content">
-    <div class="inner">
+            {% if is_front_page %}
+            <div id="posts">
+                {% if pages|last.date %} <!-- Note we check for Date field (posts) here -->
 
-        <!--
-        {% for page in pages %}
-            {{ page.title }}<br/>
-        {% endfor %}  -->
-
-        <div class="speechbubble-tip"></div>
-
-        {% if is_front_page %}
-        <div id="posts">
-            {% if pages|last.date %} <!-- Note we check for Date field (posts) here -->
-
-            <span class="date tk-museo-sans">{{ pages|last.date|swedate }}</span>
-            <h2><!--a href="{{ page.url }}">{% filter upper %}{{ pages|last.title }}{% endfilter %}</a-->
-                <a href="{{ page.url }}">{{ pages|last.title }}</a>
-            </h2>
-            <div class="post tk-museo-sans">
-                <p class="excerpt">{{ pages|last.content }}</p>
+                <span class="date tk-museo-sans">{{ pages|last.date|swedate }}</span>
+                <h2><!--a href="{{ page.url }}">{% filter upper %}{{ pages|last.title }}{% endfilter %}</a-->
+                    <a href="{{ page.url }}">{{ pages|last.title }}</a>
+                </h2>
+                <div class="post tk-museo-sans">
+                    <p class="excerpt">{{ pages|last.content }}</p>
+                </div>
+                {% endif %}
+            </div>
+            {% else %}
+            <div class="post">
+                {% if meta.title %}<h2>{{ meta.title }}</h2>{% endif %}
+                <p class="meta">{{ meta.date_formatted }}</p>
+                {{ content }}
             </div>
             {% endif %}
         </div>
-        {% else %}
-        <div class="post">
-            {% if meta.title %}<h2>{{ meta.title }}</h2>{% endif %}
-            <p class="meta">{{ meta.date_formatted }}</p>
-            {{ content }}
-        </div>
-        {% endif %}
-    </div>
-</section>
+    </section>
 
 </div>
 

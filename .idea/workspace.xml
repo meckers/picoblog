@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffbc7b11-1ec1-45b3-8edc-1c7da99dc67b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/nothing/scripts/init.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/nothing/index.html" afterPath="$PROJECT_DIR$/themes/nothing/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/pico_plugin.php" afterPath="$PROJECT_DIR$/plugins/pico_plugin.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/nothing/style.css" afterPath="$PROJECT_DIR$/themes/nothing/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -13,11 +13,13 @@
     <file path="/pico_draft.php" changelist="ffbc7b11-1ec1-45b3-8edc-1c7da99dc67b" time="1372687345901" ignored="false" />
     <file path="/index.php" changelist="ffbc7b11-1ec1-45b3-8edc-1c7da99dc67b" time="1372690528032" ignored="false" />
     <file path="/Dummy.txt" changelist="ffbc7b11-1ec1-45b3-8edc-1c7da99dc67b" time="1372707605003" ignored="false" />
-    <file path="/index.html" changelist="ffbc7b11-1ec1-45b3-8edc-1c7da99dc67b" time="1372798600827" ignored="false" />
-    <file path="/style.css" changelist="ffbc7b11-1ec1-45b3-8edc-1c7da99dc67b" time="1372799917229" ignored="false" />
+    <file path="/index.html" changelist="ffbc7b11-1ec1-45b3-8edc-1c7da99dc67b" time="1372835248227" ignored="false" />
+    <file path="/style.css" changelist="ffbc7b11-1ec1-45b3-8edc-1c7da99dc67b" time="1372800838581" ignored="false" />
     <file path="/config.php" changelist="ffbc7b11-1ec1-45b3-8edc-1c7da99dc67b" time="1372778898301" ignored="false" />
     <file path="/swedate.php" changelist="ffbc7b11-1ec1-45b3-8edc-1c7da99dc67b" time="1372777526508" ignored="false" />
     <file path="/pico_plugin.php" changelist="ffbc7b11-1ec1-45b3-8edc-1c7da99dc67b" time="1372778088499" ignored="false" />
+    <file path="/init.js" changelist="ffbc7b11-1ec1-45b3-8edc-1c7da99dc67b" time="1372835591587" ignored="false" />
+    <file path="/.gitignore" changelist="ffbc7b11-1ec1-45b3-8edc-1c7da99dc67b" time="1372835788730" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,16 +83,43 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/nothing/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="1003" selection-end="1147" vertical-scroll-proportion="-4.285714">
+            <state line="50" column="10" selection-start="1728" selection-end="1728" vertical-scroll-proportion="-4.7619047">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="24" selection-start="115" selection-end="115" vertical-scroll-proportion="0.13544019">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="init.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/nothing/scripts/init.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="0" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mestmagnus.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Dropbox/Public/mestmagnus/js/mestmagnus.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="882" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/nothing/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="118" column="21" selection-start="1923" selection-end="1923" vertical-scroll-proportion="0.7740113">
+            <state line="21" column="17" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -125,8 +154,10 @@
         <option value="$PROJECT_DIR$/config.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/plugins/pico_plugin.php" />
-        <option value="$PROJECT_DIR$/themes/nothing/index.html" />
         <option value="$PROJECT_DIR$/themes/nothing/style.css" />
+        <option value="$PROJECT_DIR$/themes/nothing/scripts/init.js" />
+        <option value="$PROJECT_DIR$/themes/nothing/index.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -136,7 +167,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1449" />
-    <option name="height" value="1090" />
+    <option name="height" value="1268" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -193,6 +224,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="nothing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pico-blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nothing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -356,10 +405,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1449" height="1090" extended-state="0" />
+    <frame x="0" y="22" width="1449" height="1268" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24123712" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20383275" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -376,7 +425,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969433" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24447612" sideWeight="0.7587629" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24447612" sideWeight="0.79616725" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -450,27 +499,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/content/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/marriage/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="225" column="34" selection-start="3859" selection-end="3859" vertical-scroll-proportion="0.33920187">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/default/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="87" selection-start="84" selection-end="84" vertical-scroll-proportion="0.04694836">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/index.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="18" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0">
@@ -548,16 +576,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/nothing/index.html">
+    <entry file="file://$PROJECT_DIR$/themes/nothing/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="1003" selection-end="1147" vertical-scroll-proportion="-4.285714">
+        <state line="21" column="17" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/nothing/style.css">
+    <entry file="file://$USER_HOME$/Dropbox/Public/mestmagnus/js/mestmagnus.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="21" selection-start="1923" selection-end="1923" vertical-scroll-proportion="0.7740113">
+        <state line="0" column="0" selection-start="0" selection-end="882" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/nothing/scripts/init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/nothing/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="10" selection-start="1728" selection-end="1728" vertical-scroll-proportion="-4.7619047">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="24" selection-start="115" selection-end="115" vertical-scroll-proportion="0.13544019">
           <folding />
         </state>
       </provider>

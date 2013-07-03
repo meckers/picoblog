@@ -5,16 +5,9 @@ body {
     margin: 0px;
 }
 
-/*
-.centerer {
-    overflow: hidden;
-    width: 100%;
-} */
-
 h2 {
     font-family: adobe-caslon-pro, georgia, serif;
     font-size: 1.8em;
-    /*font-weight: bold;*/
     font-weight: normal;
     font-style: italic;
 }
@@ -32,13 +25,11 @@ a:hover {
 }
 
 section#content {
-    /*margin: 0 auto;*/
     max-width: 700px;
     background-color: #f0f0f0;
     color: #555;
     font-size: 1.5em;
     line-height: 28px;
-    /*border: 1px solid black;*/
     padding: 50px;
 }
 
@@ -145,16 +136,26 @@ section#content {
         font-size: 1.2em;
     }
 
+    .ego-container {
+        margin-left: -20px;
+    }
+
     .ego-container #title {
+        font-size: 0.8em;
         display: inline-block;
         position: relative;
         bottom: 25px;
     }
 
+    .ego-container .description {
+        width: 150px;
+    }
+
     .ego-container img {
         width: 100px;
-        margin-bottom: -4px;
+        margin-bottom: -3px;
         margin-top: 20px;
+        margin-right: 20px;
     }
 
     .ego-container h1 {
